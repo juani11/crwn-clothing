@@ -35,7 +35,6 @@ class App extends React.Component {
   }
 
   render() {
-    setCurrentUser = this.props
     return (
       <div className="App" >
         <Header />
