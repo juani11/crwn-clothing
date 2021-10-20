@@ -4,8 +4,7 @@ import './menu-item.styles.scss'
 import { withRouter } from "react-router";
 
 const MenuItem = ({ title, imageUrl,size,linkUrl,history,match }) => {
-    console.log('Dentro de MenuItem..');
-    console.log("Param match",match);
+ 
     return (
 
         <div 
